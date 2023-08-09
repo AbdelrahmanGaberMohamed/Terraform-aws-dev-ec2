@@ -1,0 +1,12 @@
+This is a sample terraform project creating:
+  - VPC
+  - SUBNET
+  - Internet Gateway
+  - Routing table 
+  - Security group
+  - ssh key pair 
+  - data object for ubuntu ami image
+  - ec2 t3.micro instance customized with userdata
+  - Auto add entry of the new instance to your local windows machine ssh config using provisioner
+Note:
+  - If you copy this project create terraform.tfvars file to define the values for the variables defined in varaibles.tf
